@@ -1,0 +1,41 @@
+[
+    {
+        "version": "beta-0.5",
+        "remove_files": [
+            ".minecraft/test1",
+            ".minecraft/test2"
+        ],
+        "download_files": [
+            {
+                "target_path": ".minecraft",
+                "download_link": "http://212.183.159.230/10MB.zip"
+            }
+        ]
+    },
+    {
+        "version": "beta-0.4",
+        "remove_files": [
+            ".minecraft/test/test1.txt",
+            ".minecraft/test/test2.txt"
+        ],
+        "download_files": [
+            {
+                "target_path": ".minecraft/test",
+                "download_link": "http://212.183.159.230/20MB.zip"
+            }
+        ]
+    },
+    {
+        "version": "beta-0.3",
+        "remove_files": [
+            ".minecraft/test/test1.txt",
+            ".minecraft/test/test2.txt"
+        ],
+        "download_files": [
+            {
+                "target_path": ".minecraft/test",
+                "download_link": "http://212.183.159.230/20MB.zip"
+            }
+        ]
+    }
+]
